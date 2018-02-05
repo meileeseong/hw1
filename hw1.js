@@ -24,4 +24,4 @@ let weatherData = {
   ]
 }
 
-console.log(weatherData);
+console.log("Currently it is " + weatherData.current.temperature + " degrees and " + weatherData.current.conditions +". Tomorrow it will be " + weatherData.forecast[0].temperature + " and " + weatherData.forecast[0].conditions + ". The next day we will see " + weatherData.forecast[1].conditions + " skies, with a temperature of " + weatherData.forecast[1].temperature + ".");
